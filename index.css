@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background-color: black;
+    background-color: black, gray, white, gray;
     text-align: center;
     font-family: sans-serif, Arial, helvetica;
     min-width: 80%;
