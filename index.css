@@ -4,21 +4,21 @@ html{
 }
 
 body{
-    background-color: black, gray, white, gray;
+    background-color: rgb(19, 19, 19);
     text-align: center;
     font-family: sans-serif, Arial, helvetica;
     min-width: 80%;
     flex-wrap: wrap;
 }
 
+
 h2{
-    color: rgb(30, 255, 0);
     font-size: 30px;
     margin-bottom: 0%;
 }
 
 a{   
-    padding: 10px 10px;
+    padding: 20px 15px;
     color:rgb(255, 255, 255);
     border: 3px solid rgb(43, 255, 0);
     display: block;
@@ -27,8 +27,50 @@ a{
     margin: auto;
     margin-bottom: 30px;
     border-radius: 3px;
-    transition: ease-out;
+    transition: 1s all ease;
     outline: none;
+    text-decoration: none;
+    top: -30%;
+}
+
+.btn1::before {
+    background: rgb(0, 255, 21);
+    content: "";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: -1%;
+    width: 100%;
+    transform: all 0.6 ease;
+    max-width: 350px;
+    margin: auto;
+    transition: 1s all ease;
+    outline: none;
+    text-decoration: none;
+    left: 50%;
+    color:black
+}
+
+.btn1::before {
+    width: 0;
+    height: 10%;
+    max-width: 350px;
+    margin: auto;
+    transition: 1s all ease;
+    outline: none;
+    text-decoration: none;
+    left: 50%;
+    color:black
+}
+
+.btn1:hover::before {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    transition: 1s all ease;
+    outline: none;
+    text-decoration: none;
+    left: 50%;
+    color:black
 }
 
 .create{ 
