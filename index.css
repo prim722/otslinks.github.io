@@ -42,35 +42,39 @@ a{
     width: 100%;
     transform: all 0.6 ease;
     max-width: 350px;
-    margin: auto;
+    margin: top 10px;
     transition: 1s all ease;
     outline: none;
     text-decoration: none;
     left: 50%;
-    color:black
+    color:black;
+    height: 5px;
+    
 }
 
 .btn1::before {
     width: 0;
     height: 10%;
     max-width: 350px;
-    margin: auto;
+    margin: top 10px;
     transition: 1s all ease;
     outline: none;
     text-decoration: none;
     left: 50%;
-    color:black
+    color:black;
+    height: 5px;
 }
 
 .btn1:hover::before {
     width: 100%;
     max-width: 350px;
-    margin: auto;
+    margin: top 10px;
     transition: 1s all ease;
     outline: none;
     text-decoration: none;
     left: 50%;
-    color:black
+    color:black;
+    height: 5px;
 }
 
 .create{ 
